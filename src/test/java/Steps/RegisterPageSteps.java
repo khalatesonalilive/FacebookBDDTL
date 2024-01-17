@@ -26,4 +26,12 @@ public class RegisterPageSteps extends BaseClass {
 	    
 		registerPage.FirstNameAndLastNameFunctionality("Sonali", "Khalate");
 	}
+	
+	@Given("user enters a valid email address and password")
+	public void user_enters_a_valid_email_address_and_password() {
+	    
+		registerPage.enterEmailAndPass("khalatesonali@gmail.com", "khalatesonali123");
+	}
 }
+
+
