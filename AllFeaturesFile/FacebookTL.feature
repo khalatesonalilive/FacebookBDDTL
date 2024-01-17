@@ -8,3 +8,6 @@ Feature: Test Facebook Application Functionality
 
   Scenario: Test Personal Information Functionality
     And user enters a valid email address and password
+
+  Scenario: Test Date Of Birth Functionality
+    And user enters a valid date of birth

@@ -32,6 +32,11 @@ public class RegisterPageSteps extends BaseClass {
 	    
 		registerPage.enterEmailAndPass("khalatesonali@gmail.com", "khalatesonali123");
 	}
+	@Given("user enters a valid date of birth")
+	public void user_enters_a_valid_date_of_birth() {
+	   
+		registerPage.enterDOBFunctionality("14", "Mar", "2000");
+	}
 }
 
 
