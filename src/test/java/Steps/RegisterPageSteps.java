@@ -19,4 +19,11 @@ public class RegisterPageSteps extends BaseClass {
 		boolean a=actualUrl.contains("reg");
 		Assert.assertEquals(a,true);
 	}
+	
+	
+	@Given("user enters a valid FirstName and LastName")
+	public void user_enters_a_valid_first_name_and_last_name() {
+	    
+		registerPage.FirstNameAndLastNameFunctionality("Sonali", "Khalate");
+	}
 }
